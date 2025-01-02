@@ -5,16 +5,16 @@
 #############################################
 
 # Set the IP addresses of the admin, managers, and workers nodes
-admin=192.168.3.5
-manager1=192.168.3.21
-manager2=192.168.3.22
-manager3=192.168.3.23
-worker1=192.168.3.24
-worker2=192.168.3.25
+admin=172.18.8.6
+manager1=172.18.8.7
+manager2=172.18.8.8
+manager3=172.18.8.9
+worker1=172.18.8.10
+worker2=172.18.8.11
 
 # Set the workers' hostnames (if using cloud-init in Proxmox it's the name of the VM)
-workerHostname1=dockerSwarm-04
-workerHostname2=dockerSwarm-05
+workerHostname1=H1-DEV-DS-05-VM
+workerHostname2=H1-DEV-DS-06-VM
 
 # User of remote machines
 user=praley
