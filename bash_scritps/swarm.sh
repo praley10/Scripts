@@ -35,7 +35,7 @@ workers=($worker1 $worker2)
 all=($manager1 $manager2 $manager3 $worker1 $worker2)
 
 #ssh certificate name variable
-certName=id_rsa
+certName=id_ed25519
 
 #############################################
 #            DO NOT EDIT BELOW              #
